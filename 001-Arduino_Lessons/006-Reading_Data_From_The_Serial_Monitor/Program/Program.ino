@@ -2,7 +2,7 @@
 
 /*
 >>>> Getting user input from the Serial Monitor.
-        Serial.available() will be 0, if there is not input available.
+        Serial.available() will be 0, if there is no input available.
         Else, it will be 1.
 
 >>>> Converting the data read from the Serial Monitor:

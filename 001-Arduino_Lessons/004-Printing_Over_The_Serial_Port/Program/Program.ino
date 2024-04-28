@@ -3,7 +3,7 @@
 /*
 >>>> Baud rate
         Baud rate is the speed at which the arduino is talking via the serial port.
-        Baud rate must be same in code and serial monitor.
+        Baud rate must be same in void setup and serial monitor.
 >>>>
 >>>>
 >>>>
