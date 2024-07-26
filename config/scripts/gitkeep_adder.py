@@ -7,9 +7,10 @@ from pathlib import Path
 # Change dir to two dir up.
 os.chdir(Path(__file__).parents[2])
 
-# List all dir and avoid the git dir.
+# List all dir and avoid the .git dir and config folder.
 dir_list = list(filter(os.path.isdir, os.listdir()))
 dir_list.remove('.git')
+dir_list.remove('config')
 
 # Create .gitkeep file in all empty directories.
 for directory in dir_list:
